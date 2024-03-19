@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import './ContactPage.css';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import { sendEmail } from "@/app/api/send/route";
+import { sendEmail } from "@/app/api/send/sendEmail";
 
 
 

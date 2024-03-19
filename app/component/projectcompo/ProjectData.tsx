@@ -36,14 +36,3 @@ const ProjectData=[
 ]
 
 export default ProjectData;
-
-   /*{
-    id:3,
-    title:'Movie APP',
-    tech:'React.JS, Material-UI, CSS, Java, SpringBoot, MongoDB',
-    point2:[
-        'Designed a feasible dashboard with many features like user authentication and more interactive features like movie browsing and trailer watching',
-        'Users can access other people s reviews and submit their own reviews up to 500 words.'
-    ],
-    git:<a href ="https://github.com/17prateek12/movie-app" target="_blank" style={{textDecoration:'none'}}>GITHUB</a>
-},*/
