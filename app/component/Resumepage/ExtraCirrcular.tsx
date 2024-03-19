@@ -10,5 +10,5 @@ const ExtraCirr=[
              'Coordinated and facilitated events, competitions, and sessions with a team of 20+ members.'
         ] 
     }
-]
+];
 export default ExtraCirr;
