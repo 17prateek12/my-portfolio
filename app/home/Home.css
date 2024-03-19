@@ -1,0 +1,67 @@
+.back{
+    background-image: url("../../public/prateekclg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.fonthello{
+    font-size: 72px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.cardholder{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card{
+    width: 240px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: rgb(124, 124, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .fonthello{
+        font-size: 22px;
+    }
+    .back{
+        background-position: center;
+    }
+    .back{
+        padding: 20px;
+    }
+    .cardholder{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        place-items: center;
+    }
+    .card{
+        width: 120px;
+        height: 60px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:600px) and (max-width: 1200px){
+    .fonthello{
+        font-size: 32px;
+    }
+    .card{
+        height: 60px;
+        width: 150px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,29 @@
+.award{
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.achee{
+    display: flex;
+    align-items: first baseline;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+@media (max-width: 600px){
+    .award{
+        font-size: 12px;
+    }
+    .achee{
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:600px) and (max-width: 1200px){
+    .award{
+        font-size: 18px;
+    }
+    .achee{
+        margin-left: 20px;
+    }
+}

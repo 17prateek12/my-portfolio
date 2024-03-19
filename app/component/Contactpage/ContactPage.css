@@ -1,0 +1,119 @@
+.field{
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+}
+
+.fontcontact{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contactfield{
+    width: 600px;
+    height: auto;
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.textfields{
+    width: 280px;
+    border: none;
+    background-color: #fff;
+}
+
+.boxtwo{
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    box-shadow: 10px 10px 15px;
+    border-radius: 15px;
+    border: outset;
+    background-color: rgb(244, 238, 228);
+}
+
+.submit{
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 20px;
+    margin-top: 50px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.submit:hover{
+    background-color: rgb(72, 71, 71);
+    transform: scale(1.1);
+}
+
+.contactme{
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+@media (min-width:600px) and (max-width: 1200px){
+  .contactfield{
+    width: 90%;
+    height: auto;
+  }
+  .boxtwo{
+    width: 70%;
+    height: 500px;
+  }
+  .field{
+    display: flex;
+    flex-direction: column;
+  }
+  .textfields{
+    width: 100%;
+  }
+  .fontcontact{
+    font-size: 14px;
+  }
+  .submit{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px){
+    .contactfield{
+        width: 90%;
+        height: auto;
+      }
+      .boxtwo{
+        width: 60%;
+        height: 500px;
+      }
+      .field{
+        display: flex;
+        flex-direction: column;
+      }
+      .textfields{
+        width: 100%;
+      }
+      .fontcontact{
+        font-size: 12px;
+      }
+      .submit{
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+      }
+}

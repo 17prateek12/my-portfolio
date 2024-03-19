@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding:30px;
+    border-radius: 10px;
+    background-color: rgba(251, 196, 95, 0.995);
+}
+.name{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactdetail{
+    font-size: 12px;
+    color: rgb(30, 29, 29);
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+.link{
+    margin-top: 40px;
+    display: flex;
+    gap:20px;
+    align-items:center;
+}
+
+@media (max-width:700px){
+    .link{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+}
