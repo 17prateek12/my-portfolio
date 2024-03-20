@@ -21,8 +21,8 @@ export default function ProjectPage(){
                             </div>
                             <Typography className='stack'>{item.tech}</Typography>
                             <div>
-                            {item.point2.map((index) => (
-                            <div className='explain'>
+                            {item.point2.map((index,idx) => (
+                            <div key={idx} className='explain'>
                             <FiberManualRecordIcon sx={{ fontSize: 10 }} />
                             <Typography className='font5'> {index}</Typography>
                             </div>

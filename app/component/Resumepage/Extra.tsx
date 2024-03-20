@@ -24,8 +24,8 @@ const ExtraCurricular=()=>{
                         <Typography className='font'>{item.location}</Typography>
                     </div>
                     <div className='bodytext'>
-                        {item.point.map((index) => (
-                            <div className='text1'>
+                        {item.point.map((index,idx) => (
+                            <div key={idx} className='text1'>
                             <FiberManualRecordIcon sx={{ fontSize: 10 }} />
                             <Typography className='fontbody'> {index}</Typography>
                             </div>

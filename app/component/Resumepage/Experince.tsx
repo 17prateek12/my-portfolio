@@ -25,9 +25,9 @@ const Experince=()=>{
                     </div>
                     <div className='bodytext'>
                         {item.point.map((point,index) => (
-                            <div className='text1'>
+                            <div key={index} className='text1'>
                             <FiberManualRecordIcon sx={{ fontSize: 10 }} />
-                            <Typography key={index} className='fontbody'> {point}</Typography>
+                            <Typography className='fontbody'> {point}</Typography>
                             </div>
                         ))}
                     </div>
