@@ -33,6 +33,6 @@ const ProjectData=[
     ],
     git:<a href ="https://github.com/17prateek12/autonomous-smart-car" target="_blank"  style={{textDecoration:'none'}}>GITHUB</a>
 },
-]
+];
 
 export default ProjectData;
