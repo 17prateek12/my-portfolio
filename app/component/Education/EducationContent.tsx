@@ -22,7 +22,6 @@ const EducationContent = () =>{
                             <div className="bodytwo">
                                 <Typography className="font4">{item.course}</Typography>
                                 <Typography className="font4">{item.date}</Typography>
-                                <Typography className="font4">{item.marks}</Typography>
                             </div>
                         </div>
                     )
