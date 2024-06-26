@@ -6,8 +6,11 @@ const ResumeData=[
         orgainization:'BharatTech',
         location:'Remote, India',
         point:[
-             'Responsible for fixing errors, adding functionality, and components to the UI of the company project using React   and Next.js.',
-             'Collaborated with the development team of 8+ member to ensure seamless integration of new features, responsiveness of website and enhancements'
+             'Design and develop SaaS product, web applications, incorporating new features, components and modernizing the UI using React, Redux, Next and Tailwind CSS.',
+             'Collaborated and managed the team of 4+ intern to ensure seamless integration of new features, responsiveness of website and enhancements.',
+             'Improved SEO by 90%, user interface load times and performance by 82%, and implemented best front-end practices including conditional rendering and reusable components.',
+             'Integrated RESTful APIs to enhance application functionality and streamline data flow between the front-end and back-end services.',
+             'Utilized Git for version control, collaborating with team members on feature branches, and managing codebase integrity.',
         ]
     },
     {
@@ -17,8 +20,8 @@ const ResumeData=[
         orgainization:'Jaypee Institute of Information Technology',
         location:'Noida, India',
         point:[
-             'Developed a false news detection system utilising machine learning models and natural language processing techniques, incorporating four distinct combination models, and successfully deployed the best model on Flask-based web page.',
-             'Achieved an accuracy rate of up to 89.91 percent, demonstrating expertise in model web deployment, handle data analysis, and data visualization.'
+             'Engineered and deployed a custom false news detection system with four distinct combination models on a Flask-based web page; optimized model performance resulted in a reduction in false news dissemination.',
+             'Achieved an accuracy rate of up to 89.91% by developing and deploying complex predictive models, analyzing data trends, and creating visually compelling dashboards to drive strategic decision-making.'
         ]
     }
 ];
