@@ -20,7 +20,7 @@ const Contactme = () => {
                             </Typography>
                             <Typography className={`text-base md:text-[14px] font-normal ${darkMode ? 'text-white' : 'text-black'}`}
                             >If you want to know more about me or my work, or if you would just
-                                like to say hello, send me a message. I'd love to hear from you.
+                                like to say hello, send me a message. I&apos;d love to hear from you.
                             </Typography>
                         </div>
                         <div className='flex flex-col gap-4'>

@@ -21,7 +21,7 @@ const useTypewriter = ({ words, loop }) => {
     }, Math.max(forward ? 150 : 50, parseInt(Math.random() * 350)));
 
     return () => clearTimeout(timeout);
-  }, [subIndex, forward]);
+  }, [subIndex, forward, index, words, loop]);
 
   useEffect(() => {
     const blinkTimeout = setTimeout(() => {
@@ -33,4 +33,4 @@ const useTypewriter = ({ words, loop }) => {
   return [`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`];
 };
 
-export  {useTypewriter};
+export { useTypewriter };

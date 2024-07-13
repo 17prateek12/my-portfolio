@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import { sendEmail } from "@/app/api/send/sendEmail";
+import { sendEmail } from "../app/api/send/SendEmail";
 import ThemeContext from "@/context/ThemeContext";
 import { Typography } from "@mui/material";
 

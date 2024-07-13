@@ -28,19 +28,19 @@ export default function Home() {
           contact: contactRef
         }}
       />
-      <Section id="home" title="" ref={homeRef}>
+      <Section id="home" ref={homeRef}>
         <HomeSection />
       </Section>
-      <Section id="skills" title="" ref={skillsRef}>
+      <Section id="skills" ref={skillsRef}>
         <SkillSection />
       </Section>
-      <Section id="experience" title="" ref={experienceRef}>
+      <Section id="experience"  ref={experienceRef}>
         <Experiencesection />
       </Section>
-      <Section id="project" title="" ref={projectRef}>
+      <Section id="project"  ref={projectRef}>
         <ProjectSection />
       </Section>
-      <Section id="contact" title="" ref={contactRef}>
+      <Section id="contact"  ref={contactRef}>
         <Contactme />
       </Section>
     </main>

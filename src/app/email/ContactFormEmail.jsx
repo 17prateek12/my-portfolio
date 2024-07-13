@@ -26,7 +26,7 @@ const ContactFormEmail = ({ message, senderemail }) => {
               </Heading>
               <Text>{message}</Text>
               <Hr />
-              <Text>The sender's email is: {senderemail}</Text>
+              <Text>The sender&apos;s email is: {senderemail}</Text>
             </Section>
           </Container>
         </Body>
@@ -35,4 +35,4 @@ const ContactFormEmail = ({ message, senderemail }) => {
   );
 };
 
-export {ContactFormEmail};
+export { ContactFormEmail };
