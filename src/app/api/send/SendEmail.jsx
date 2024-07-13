@@ -1,7 +1,7 @@
 "use server";
 import { Resend } from "resend";
 import React from "react";
-import{ ContactFormEmail} from "@/app/email/ContactFormEmail";
+import{ ContactFormEmail} from "../../email/ContactFormEmail";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
