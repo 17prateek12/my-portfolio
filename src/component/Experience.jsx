@@ -17,7 +17,7 @@ const Experience = () => {
             point:[
                  'Design and develop SaaS product, web applications, incorporating new features, components and modernizing the UI using React, Redux, Next and Tailwind CSS.',
                  'Collaborated and managed the team of 4+ intern to ensure seamless integration of new features, responsiveness of website and enhancements.',
-                 'Improved SEO by 90%, user interface load times and performance by 82%, and implemented best front-end practices including conditional rendering and reusable components.',
+                 'Improved SEO upto 90%, user interface load times and performance upto 65%, and implemented best front-end practices including conditional rendering and reusable components.',
                  'Integrated RESTful APIs to enhance application functionality and streamline data flow between the front-end and back-end services.',
                  'Utilized Git for version control, collaborating with team members on feature branches, and managing codebase integrity.',
             ]
