@@ -1,11 +1,12 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 
-const Section = forwardRef(({ id,children }, ref) => {
+const Section = ({ id, children }) => {
   return (
-    <section id={id} ref={ref}>
+    <section id={id}>
       {children}
     </section>
   );
-});
+};
+
 Section.displayName = 'Section';
 export default Section;

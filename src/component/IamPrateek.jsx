@@ -1,19 +1,18 @@
-import React , {useContext} from 'react';
+'use client';
+import React  from 'react';
 import { Typography } from '@mui/material';
 import {useTypewriter} from './useTypewriter';
-import ThemeContext from '@/context/ThemeContext';
 
 const IamPrateek = () => {
-  const { darkMode } = useContext(ThemeContext);
   const [text] = useTypewriter({
     words: ["PRATEEK SHARMA","FRONTEND DEVELOPER"],
     loop: true,
   });
 
   return (
-    <div className='w-auto relative h-[140px] md:h-[60px]'>
-      <Typography className={`text-[50px] font-bold md:text-2xl ${darkMode? 'text-white':'text-black'}`}>HELLO, I&apos;M</Typography>
-      <div className={`text-[45px] font-bold md:text-[22px] relative md:w-[280px] w-[620px] ${darkMode?'text-white':'text-black'}`}>
+    <div className='w-auto relative h-[140px] sm:h-[60px] pl-4'>
+      <Typography className='text-[50px] font-bold  sm:text-2xl dark:text-white text-[#223354]'>HELLO, I&apos;M</Typography>
+      <div className='text-[45px] font-bold sm:text-[18px] relative sm:w-[280px] w-[620px] dark:text-white text-[#223354]'>
         {text}
       </div>
     </div>

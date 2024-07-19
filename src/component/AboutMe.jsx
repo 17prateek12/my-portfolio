@@ -1,15 +1,13 @@
-import React, {useContext} from 'react';
-import ThemeContext from '@/context/ThemeContext';
+import React from 'react';
 import { Typography } from '@mui/material';
 import { Heading } from './Heading';
 
 
 const AboutMe = () => {
-    const { darkMode } = useContext(ThemeContext);
     return (
-        <div className='flex max-w-[1200px] mb-12 mx-auto h-auto justify-center items-center md:flex-col gap-8'>
+        <div className='flex max-w-[1240px] px-5 mb-12 mx-auto h-auto py-4 justify-center items-center sm:flex-col gap-8 bg-[#ebeef1] dark:bg-[#2b2a4e]'>
             <Heading heading={"About Me"} isMainSection={true} />
-            <Typography className={`text-xl font-normal tracking-wide text-justify md:text-[14px] ${darkMode ? 'text-white' : 'text-black'}`}>
+            <Typography className='text-xl font-normal tracking-wide text-justify sm:text-[14px] dark:text-white text-[#223354]'>
                 My name is Prateek Sharma, and an enthuastic software developer.
                 I have a background in electronics, but web programming is
                 where my real interest lies. I enjoy creating programs that are aesthetically

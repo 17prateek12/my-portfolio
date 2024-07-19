@@ -1,13 +1,11 @@
-import React, {useContext} from "react";
+'use client';
+import React from "react";
 import { sendEmail } from "../app/api/send/SendEmail";
-import ThemeContext from "@/context/ThemeContext";
 import { Typography } from "@mui/material";
 
 const EmailComp =() => {
-    const { darkMode } = useContext(ThemeContext);
   return (
-    <div className={`flex flex-col mb-4 p-8 md:p-4 w-[500px] md:w-full rounded-lg
-    ${darkMode ? 'border border-white':'border border-black'}`}>
+    <div className='flex flex-col mb-4 p-8 sm:p-4 w-[500px] sm:w-full rounded-lg dark:border dark:border-white bg-[#ebeef1] dark:bg-[#2b2a4e]'>
       <form
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
@@ -21,7 +19,7 @@ const EmailComp =() => {
         }}
       >
         <div className="mb-4">
-          <label className={`block font-semibold mb-2 ${darkMode ?'text-white':'text-gray-700'}`}>E-MAIL</label>
+          <label className='block font-semibold mb-2 dark:text-white text-[#223354]'>E-MAIL</label>
           <input
             type="email"
             placeholder="Type your Email id"
@@ -30,7 +28,7 @@ const EmailComp =() => {
           />
         </div>
         <div className="mb-4">
-          <label className={`block font-semibold mb-2 ${darkMode ?'text-white':'text-gray-700'}`}>SUBJECT</label>
+          <label className='block font-semibold mb-2 dark:text-white text-[#223354]'>SUBJECT</label>
           <input
             type="text"
             placeholder="Subject"
@@ -39,7 +37,7 @@ const EmailComp =() => {
           />
         </div>
         <div className="mb-4">
-          <label className={`block font-semibold mb-2 ${darkMode ?'text-white':'text-gray-700'}`}>MESSAGE</label>
+          <label className='block font-semibold mb-2 dark:text-white text-[#223354]'>MESSAGE</label>
           <textarea
             placeholder="Write your message"
             name="message"
@@ -49,14 +47,12 @@ const EmailComp =() => {
         </div>
         <button
           type="submit"
-          className={`w-full py-2 font-semibold rounded-md transition-transform transform hover:scale-105
-            ${darkMode?'bg-white text-gray-700 hover:bg-neutral-400':'bg-black text-white hover:bg-gray-700'}`}
-        >
+          className='w-full py-2 font-semibold rounded-md transition-transform transform hover:scale-105
+            dark:bg-white dark:text-gray-700 hover:dark:bg-neutral-400 bg-black text-white hover:bg-gray-700'>
           SUBMIT
         </button>
       </form>
-      <Typography className={`text-wrap text-center mt-4 text-[16px] md:text-[14px] font-normal
-                            ${darkMode? 'text-white':'text-black'}`}>
+      <Typography className='text-wrap text-center mt-4 text-[16px] sm:text-[14px] font-normal dark:text-white text-[#223354]'>
        <a href="mailto:17prateek12@gmail.com">Send me Email directly</a>
     </Typography>  
     </div>

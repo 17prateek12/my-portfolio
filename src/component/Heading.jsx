@@ -1,18 +1,16 @@
-import React, { useContext } from 'react';
-import ThemeContext from '@/context/ThemeContext';
+import React from 'react';
 import { Typography } from '@mui/material';
 
 
 const Heading = ({ heading, isMainSection }) => {
-    const { darkMode } = useContext(ThemeContext);
     return (
         <div>
             {isMainSection ? (
-                <Typography className={`text-[45px] navmd:text-[32px] text-center md:text-[20px] font-bold ${darkMode ? 'text-white' : 'text-black'}`}>
+                <Typography className='text-[45px] sm:text-[32px] text-center font-bold dark:text-white text-[#223354]'>
                     {heading}
                 </Typography>
             ) : (
-                <Typography className={`text-[35px] navmd:text-[26px] text-center md:text-[16px] font-medium ${darkMode ? 'text-white' : 'text-black'}`}>
+                <Typography className='text-[35px] sm:text-[24px] text-center font-medium dark:text-white text-[#223354]'>
                     {heading}
                 </Typography>
             )}

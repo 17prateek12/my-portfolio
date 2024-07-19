@@ -5,3 +5,15 @@
 html {
     scroll-behavior: smooth;
   }
+
+  :root {
+    --background-color: white;
+  }
+  
+  .dark {
+    --background-color: #192343;
+  }
+  
+  body {
+    background-color: var(--background-color);
+  }

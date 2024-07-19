@@ -1,5 +1,5 @@
-import React,{useState, useContext} from 'react'
-import ThemeContext from '@/context/ThemeContext';
+'use client';
+import React,{useState} from 'react'
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 import { Typography } from '@mui/material';
@@ -7,7 +7,6 @@ import { Heading } from './Heading';
 
 const Experience = () => {
     const [showexp, setShowexp]= useState([]);
-    const { darkMode } = useContext(ThemeContext);
     const ResumeData=[
         {
             id:1,
@@ -42,29 +41,29 @@ const Experience = () => {
     };
 
   return (
-    <div className='max-w-[1200px] mx-auto flex flex-col justify-center items-center'>
+    <div className='max-w-[1240px] mx-auto flex flex-col justify-center items-center'>
         <Heading heading={"Work Experience"} isMainSection={true} />
         <div className='w-full'>
         {ResumeData.map((item,index)=>(
-            <div key={index} className='flex-col flex mt-8'>
-                <div className='flex flex-wrap md:flex-col md:items-start gap-4 items-baseline justify-between'>
-                    <div className={`w-auto md:w-full text-[18px] md:text-[14px] font-medium ${darkMode?'text-white':'text-black'}`}>
+            <div key={index} className='flex-col flex mt-8 px-6 bg-[#ebeef1] dark:bg-[#2b2a4e] py-4'>
+                <div className='flex flex-wrap sm:flex-col sm:items-start gap-4 items-baseline justify-between'>
+                    <div className='w-auto sm:w-full text-[18px] sm:text-[14px] font-medium dark:text-white text-[#223354]'>
                         {item.designation}
                     </div>
-                    <div className={`w-[250px] md:w-full text-[18px] md:text-[14px] font-medium ${darkMode?'text-white':'text-black'}`}>
+                    <div className='w-[250px] sm:w-full text-[18px] sm:text-[14px] font-medium dark:text-white text-[#223354]'>
                         {item.orgainization}
                     </div>
-                    <div className={`w-[237px] navmd:w-full md:w-full text-[18px] md:text-[14px] font-medium 
-                        flex justify-between items-center md:flex-col md:justify-start md:items-start md:gap-2 ${darkMode?'text-white':'text-black'}`}>
+                    <div className='w-[237px] navsm:w-full sm:w-full text-[18px] sm:text-[14px] font-medium 
+                        flex justify-between items-center sm:flex-col sm:justify-start sm:items-start sm:gap-2 dark:text-white text-[#223354]'>
                         {item.date}
-                        <div className='md:w-full md:justify-center md:items-center md:flex'>
+                        <div className='sm:w-full sm:justify-center sm:items-center sm:flex'>
                         {showexp.includes(item.id) ? (
-                            <button className={`text-[18px] font-medium ${darkMode?'text-white':'text-black'}`}
+                            <button className='text-[18px] font-medium dark:text-white text-[#223354]'
                             onClick={() => handleToggle(item.id)}>
                                 <FaMinus />
                             </button>
                         ):(
-                            <button className={`text-[18px] font-medium ${darkMode?'text-white':'text-black'}`}
+                            <button className='text-[18px] font-medium dark:text-white text-[#223354]'
                             onClick={() => handleToggle(item.id)}>
                                 <FaPlus />
                             </button>
@@ -73,11 +72,10 @@ const Experience = () => {
                     </div>
                 </div>
                 {showexp.includes(item.id) && (
-                    <div className='my-8'>
+                    <div className='mt-8'>
                     {item.point.map((val,index)=>(
                         <div className='flex flex-col mb-4 transform transition-transform ease-in-out duration-1000' key={index}>
-                        <Typography className={`text-wrap text-[16px] md:text-[14px] font-normal
-                            ${darkMode? 'text-white':'text-black'}`}>
+                        <Typography className='text-wrap text-[16px] sm:text-[14px] font-normal dark:text-white text-[#223354]'>
                                 {index+1}{". "}{val}
                             </Typography>
                     </div>  

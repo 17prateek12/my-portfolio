@@ -1,5 +1,5 @@
-import React, { useState, useContext } from 'react';
-import ThemeContext from '@/context/ThemeContext';
+'use client'
+import React, { useState} from 'react';
 import { SiCplusplus } from "react-icons/si";
 import { SiPython } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -28,14 +28,13 @@ import { Heading } from './Heading';
 
 
 const Myskills = () => {
-    const { darkMode } = useContext(ThemeContext);
     const [allskill, setAllskill] = useState(false);
     const skills = [
         { logo: <SiCplusplus />, label: "C++" },
         { logo: <SiPython />, label: "Python" },
         { logo: <SiJavascript />, label: "JavaScript" },
         { logo: <SiTypescript />, label: "TypeScript" },
-        { logo:<FaDatabase />, label:'SQL'},
+        { logo: <FaDatabase />, label: 'SQL' },
         { logo: <SiReact />, label: "React.JS" },
         { logo: <RiNextjsFill />, label: "Next.JS" },
         { logo: <SiRedux />, label: "Redux" },
@@ -48,8 +47,8 @@ const Myskills = () => {
         { logo: <SiTailwindcss />, label: "TailWind CSS" },
         { logo: <SiMongodb />, label: "MongoDB" },
         { logo: <SiMysql />, label: "MySQL" },
-        { logo: <SiPandas />, label: "Pandas"},
-        { logo: <SiNumpy />, label: "Numpy"},
+        { logo: <SiPandas />, label: "Pandas" },
+        { logo: <SiNumpy />, label: "Numpy" },
         { logo: <SiTensorflow />, label: "TensorFlow" },
         { logo: <SiScikitlearn />, label: "Scikit learn" },
         { logo: <SiGit />, label: "Git" },
@@ -58,35 +57,35 @@ const Myskills = () => {
     ];
 
     return (
-        <div className=' w-full flex flex-col justify-center items-center'>
-            <Heading heading={"Tech Stack I Used"} isMainSection={false}/>
+        <div className=' w-full flex flex-col justify-center items-center bg-[#ebeef1] dark:bg-[#2b2a4e] px-5 py-4'>
+            <Heading heading={"Tech Stack I Used"} isMainSection={false} />
             <div className='w-full flex flex-wrap justify-between gap-8 items-center pt-6'>
-                {skills.slice(0,allskill ? skills.length : 6).map((item, index) => (
-                    <div key={index} className={`w-[160px] h-[50px] text-[14px] rounded-xl md:w-[130px] md:px-2
+                {skills.slice(0, allskill ? skills.length : 6).map((item, index) => (
+                    <div key={index} className='w-[160px] h-[50px] text-[14px] rounded-xl md:w-[130px] md:px-2
                               flex justify-center items-center gap-4 md:gap-2 hover:scale-105 transition-all ease-in-out duration-500
-                             ${darkMode ? 'text-white hover:border-2 hover:border-white' : 'text-black hover:border-2 hover:border-black'}`}>
+                             dark:text-white hover:dark:border-2 hover:dark:border-white text-black hover:border-2 hover:border-black'>
                         <p className='text-xl'>{item.logo}</p>
                         {item.label}
                     </div>
                 ))}
-                {!allskill ?(
-                    <div className={`w-[160px] h-[50px] text-[14px] rounded-xl md:w-[130px] md:px-2
-                        flex justify-center items-center gap-4 md:gap-2 hover:scale-105 transition-all ease-in-out duration-500
-                       ${darkMode ? 'text-white hover:border-2 hover:border-white' : 'text-black hover:border-2 hover:border-black'}`}
-                       onClick={()=>setAllskill(true)}>
-                       Show All
-              </div>
-                ):(
-                    <div className={`w-[160px] h-[50px] text-[14px] rounded-xl md:w-[130px] md:px-2
-                        flex justify-center items-center gap-4 md:gap-2 hover:scale-105 transition-all ease-in-out duration-500
-                       ${darkMode ? 'text-white hover:border-2 hover:border-white' : 'text-black hover:border-2 hover:border-black'}`}
-                       onClick={()=>setAllskill(false)}>
-                       Hide
-              </div>
+                {!allskill ? (
+                    <div className='w-[160px] h-[50px] text-[14px] rounded-xl md:w-[130px] md:px-2
+                    flex justify-center items-center gap-4 md:gap-2 hover:scale-105 transition-all ease-in-out duration-500
+                   dark:text-white hover:dark:border-2 hover:dark:border-white text-black hover:border-2 hover:border-black'
+                        onClick={() => setAllskill(true)}>
+                        Show All
+                    </div>
+                ) : (
+                    <div className='w-[160px] h-[50px] text-[14px] rounded-xl md:w-[130px] md:px-2
+                    flex justify-center items-center gap-4 md:gap-2 hover:scale-105 transition-all ease-in-out duration-500
+                   dark:text-white hover:dark:border-2 hover:dark:border-white text-black hover:border-2 hover:border-black'
+                        onClick={() => setAllskill(false)}>
+                        Hide
+                    </div>
                 )}
             </div>
         </div>
     )
 }
 
-export {Myskills}
+export { Myskills }
