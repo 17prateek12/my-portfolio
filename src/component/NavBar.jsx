@@ -1,8 +1,7 @@
 'use client';
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { DarkModeThemeIcon } from './DarkModeThemeIcon';
-import ThemeContext from '@/context/ThemeContext';
 import { CgCloseO } from "react-icons/cg";
 
 const NavBar = ({ sections }) => {
@@ -62,7 +61,7 @@ const NavBar = ({ sections }) => {
             </div>
           ))}
           <button className='text-[14px] font-normal text-black dark:text-white hover:dark:bg-[#bb7c35] hover:bg-[#131a31] hover:text-white hover:px-2 hover:py-2 hover:rounded-lg hover:scale-110 ease-in-out transition-all duration-500'>
-            <a href='/resume_prateek_sharma.pdf' target="_blank" rel="noopener noreferrer" download>
+            <a href='/PRATEEK_SHARMA_.pdf' target="_blank" rel="noopener noreferrer" download>
               DownLoad CV
             </a>
           </button>
@@ -93,7 +92,7 @@ const NavBar = ({ sections }) => {
                 ))}
                 <div className='w-[80%] hover:dark:bg-[#bb7c35] hover:dark:text-white text-[20px] pl-2 py-2 
                 rounded-lg hover:bg-[#131a31] hover:text-white text-start mt-4 text-black dark:text-white ml-8 font-medium'>                
-                  <a href='/resume_prateek_sharma.pdf' target="_blank" rel="noopener noreferrer" download>
+                  <a href='/PRATEEK_SHARMA_.pdf' target="_blank" rel="noopener noreferrer" download>
                     DownLoad CV
                   </a>
                 </div>

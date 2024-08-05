@@ -9,7 +9,7 @@ const ProjectData = [
             'Integrated an auto-update of all news after every 12 hours and the latest news after 2 hours.'
         ],
         git: "https://github.com/17prateek12/news_app",
-        link:""
+        link:"https://news-app-4h7w.onrender.com"
     },
     {
         id: 2,
