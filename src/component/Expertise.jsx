@@ -15,9 +15,10 @@ const Expertise = () => {
         {
             domain: 'BACKEND',
             tech: [
-                { skill: 'NODE', rating: '60%' },
-                { skill: 'EXPRESS', rating: '60%' },
+                { skill: 'NODE', rating: '75%' },
+                { skill: 'EXPRESS', rating: '75%' },
                 { skill: 'DJANGO', rating: '70%' },
+                { skill: 'WEB SOCKETS', rating: '60%' },
             ]
         }
     ];

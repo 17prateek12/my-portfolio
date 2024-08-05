@@ -15,11 +15,11 @@ const Experience = () => {
             orgainization:'BHARATTECH TECH ECO-SYSTEM PVT LTD ',
             location:'Remote, India',
             point:[
-                 'Design and develop SaaS product, web applications, incorporating new features, components and modernizing the UI using React, Redux, Next and Tailwind CSS.',
-                 'Collaborated and managed the team of 4+ intern to ensure seamless integration of new features, responsiveness of website and enhancements.',
-                 'Improved SEO upto 90%, user interface load times and performance upto 65%, and implemented best front-end practices including conditional rendering and reusable components.',
-                 'Integrated RESTful APIs to enhance application functionality and streamline data flow between the front-end and back-end services.',
-                 'Utilized Git for version control, collaborating with team members on feature branches, and managing codebase integrity.',
+                 'Design and develop SaaS product, web applications, adding new features, components and modernizing the UI using TypeScript, React, Redux, Next14 and Tailwind CSS.',
+                 'Coordinated with the team of 4+ interns to ensure the integration of new features, functionality, and responsiveness of website.',
+                 'Improved SEO up to 90%, user interface load times and performance by 50%, and implemented best front-end practices improving best practice score up to 76 percent.',
+                 'Integrated RESTful APIs in the application streamline data flow between the front-end and back-end services.',
+                 'Utilized Git for version control, merging branch, and managing codebase integrity',
             ]
         },
         {

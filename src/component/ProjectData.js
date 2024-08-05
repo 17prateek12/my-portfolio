@@ -1,6 +1,18 @@
 const ProjectData = [
     {
         id: 1,
+        title: 'NEWS APP',
+        tech: 'MERN STACK, Socket.io, Passport.js, Google OAuth 2.0, Redux, Tailwind CSS, Google news Scraper, Cheerio',
+        point2: [
+            'Created a user-friendly, feature-rich news app that uses web scraping to showcase news and Google News Scraper to retrieve up to 2000+ items for over 15+ categories.',
+            'Incorporate features like pagination, searching over 2000+ articles, user authentication through Google Auth 2.0, adding bookmarks, and dark theme mode.',
+            'Integrated an auto-update of all news after every 12 hours and the latest news after 2 hours.'
+        ],
+        git: "https://github.com/17prateek12/news_app",
+        link:""
+    },
+    {
+        id: 2,
         title:'WEATHER APP',
         tech: 'React.JS',
         point2: [
@@ -12,7 +24,7 @@ const ProjectData = [
         link:"https://weather-app-tau-indol.vercel.app/"
     },
     {
-        id: 2,
+        id: 3,
         title: 'STOCK PREDICTION DASHBOARD',
         tech: 'React.JS, Tailwind CSS, FinHub API, Flask, Neural Network, LSTM, SVR, Scikit-learn',
         point2: [
@@ -25,7 +37,7 @@ const ProjectData = [
         link:""
     },
     {
-        id: 3,
+        id: 4,
         title: 'PHOTO GALLERY',
         tech: 'React.JS, Material-UI, CSS, Django REST, MySQL',
         point2: [
@@ -38,7 +50,7 @@ const ProjectData = [
     },
 
     {
-        id: 4,
+        id: 5,
         title: 'AUTONOMOUS SMART CAR',
         tech: 'Raspberry Pi, Neural Networks, Image Processing, Sensors, Google Map API, JavaScript',
         point2: [
