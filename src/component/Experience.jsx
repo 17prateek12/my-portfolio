@@ -10,20 +10,30 @@ const Experience = () => {
     const ResumeData=[
         {
             id:1,
-            designation:'Frontend developer Intern',
-            date:'April 2024 - Present',
+            designation:'Frontend Lead',
+            date:'April 2024 - September 2024',
             orgainization:'BHARATTECH TECH ECO-SYSTEM PVT LTD ',
             location:'Remote, India',
             point:[
-                 'Design and develop SaaS product, web applications, adding new features, components and modernizing the UI using TypeScript, React, Redux, Next14 and Tailwind CSS.',
-                 'Coordinated with the team of 4+ interns to ensure the integration of new features, functionality, and responsiveness of website.',
-                 'Improved SEO up to 90%, user interface load times and performance by 50%, and implemented best front-end practices improving best practice score up to 76 percent.',
-                 'Integrated RESTful APIs in the application streamline data flow between the front-end and back-end services.',
-                 'Utilized Git for version control, merging branch, and managing codebase integrity',
+                 'Led team of interns in development of  scalable web applications and dashboards, improved UI load time by 50%, used Git for version control, merged branches, and managed codebase',
+                 'Supervised front-end development which uses React, Next.js, TypeScript, and Redux, implemented best practices and increased Lighthouse performance scores by 25%.',
+                 'Collaborated with backend team to build and integrate RESTful APIs, ensuring seamless data flow between frontend and backend system',
+                 'Designed 4 dashboards from scratch which showed improvement in responsiveness and 35% increase in SEO performance, leading to higher user engagement and satisfaction.'
             ]
         },
         {
             id:2,
+            designation:'Frontend Developer',
+            date:'September 2024 - Present',
+            orgainization:'BHARATTECH TECH ECO-SYSTEM PVT LTD ',
+            location:'Remote, India',
+            point:[
+                 'Design and develop SaaS product, web applications, adding new features, components and modernizing the UI using TypeScript, React, Redux, Next14 and Tailwind CSS.',
+                 'Improved SEO up to 90%, user interface load times and performance by 50%, and implemented best front-end practices improving best practice score up to 76 percent.',
+            ]
+        },
+        {
+            id:3,
             designation:'Machine Learning Intern',
             date:'June 2022 - July 2022',
             orgainization:'Jaypee Institute of Information Technology',

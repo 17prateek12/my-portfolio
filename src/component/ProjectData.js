@@ -25,15 +25,15 @@ const ProjectData = [
     },
     {
         id: 3,
-        title: 'STOCK PREDICTION DASHBOARD',
-        tech: 'React.JS, Tailwind CSS, FinHub API, Flask, Neural Network, LSTM, SVR, Scikit-learn',
+        title: 'STOCK SENTRY ',
+        tech: 'MERN STACK, Cheerio, Redux, Tailwind CSS, Material UI, TypeScript, Neural Network, Flask',
         point2: [
-            'Developed a stock price prediction dashboard using LSTM and SVR on different datasets (5 and 10 years).',
-            'Displayed opening price graphs for various timeframes (e.g., 1 day, 1 month), company information and expected stock price predictions.',
+            'Developed a stock market dashboard displaying historical opening price graphs over a vast time range of more than 10 years, giving stock details, and displaying top losers and gainers.',
+            'Built an LSTM model achieving 94% accuracy in predicting future stock prices on the Flask API and enabled dark mode.',
             'Integrated third-party APIs (FinHub API) to extract up to 3 years of data for the graph created by React for designing the frontend of the application and Tailwind CSS for styling the application.',
-            'Deployed LSTM model on the Flask API, predicting next day opening price with 97% and setup the frontend for relay prediction and dark mode.',
+            'Build user authentication and give features like creating a watchlist, searching stock, and predicting the next 10 days price',
         ],
-        git:"https://github.com/17prateek12/Stock_prediction",
+        git:"https://github.com/17prateek12/Stock_DashBoard",
         link:""
     },
     {
