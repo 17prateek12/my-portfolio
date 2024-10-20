@@ -49,17 +49,6 @@ const ProjectData = [
         link:"",
     },
 
-    {
-        id: 5,
-        title: 'AUTONOMOUS SMART CAR',
-        tech: 'Raspberry Pi, Neural Networks, Image Processing, Sensors, Google Map API, JavaScript',
-        point2: [
-            'Designed a self-driving car demonstrating capabilities in lane detection, curve-based turning, obstacle avoidance, and real-time location of the car using a GPS sensor (Neo 6M).',
-            'Compared two algorithms for lane detection using Raspberry Pi, camera, and OpenCV library, achieving CNN accuracy of approximately 77%.',
-        ],
-        git: "https://github.com/17prateek12/autonomous-smart-car",
-        link:""
-    },
 ];
 
 export {ProjectData};

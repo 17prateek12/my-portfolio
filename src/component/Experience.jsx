@@ -10,26 +10,27 @@ const Experience = () => {
     const ResumeData=[
         {
             id:1,
-            designation:'Frontend Lead',
-            date:'April 2024 - September 2024',
+            designation:'Frontend Developer',
+            date:'April 2024 - Present',
             orgainization:'BHARATTECH TECH ECO-SYSTEM PVT LTD ',
             location:'Remote, India',
             point:[
-                 'Led team of interns in development of  scalable web applications and dashboards, improved UI load time by 50%, used Git for version control, merged branches, and managed codebase',
-                 'Supervised front-end development which uses React, Next.js, TypeScript, and Redux, implemented best practices and increased Lighthouse performance scores by 25%.',
-                 'Collaborated with backend team to build and integrate RESTful APIs, ensuring seamless data flow between frontend and backend system',
-                 'Designed 4 dashboards from scratch which showed improvement in responsiveness and 35% increase in SEO performance, leading to higher user engagement and satisfaction.'
+                 'Enhanced responsiveness, upgraded and designed new web pages, and implemented API integration, including features such as search capabilities and data filtering across several pages in Product 1, developed using React, Material UI, Redux and JavaScript.',
+                 'Optimized the website by using reusable components, conditional rendering, lazy loading, and image optimization to improve Lighthouse score up to 60%, SEO score up to 90%, and best practices score up to 76%. ',
+                 'Designed a SaaS product from Next.js 14, TypeScript, and Tailwind CSS, led the team to facilitate the incorporation of new features and functionalities, and constructed an Express Node server to scrape real-time news data for the website and decode image URLs. Utilized git and GitHub for version control, merging branches, and managing codebase integrity',
+                 'Upgraded four new dashboard portals having features like creating resumes, posting jobs, real-time messaging using Socket IO, interview scheduler by having real-time interview on dashboard itself, and authentication. Collaborated with the backend team to develop the API end point for Dashboards.'
             ]
         },
         {
             id:2,
-            designation:'Frontend Developer',
-            date:'September 2024 - Present',
-            orgainization:'BHARATTECH TECH ECO-SYSTEM PVT LTD ',
+            designation:'Contributor',
+            date:'June 2023 - Feb 2024',
+            orgainization:'IEEE',
             location:'Remote, India',
             point:[
-                 'Design and develop SaaS product, web applications, adding new features, components and modernizing the UI using TypeScript, React, Redux, Next14 and Tailwind CSS.',
-                 'Improved SEO up to 90%, user interface load times and performance by 50%, and implemented best front-end practices improving best practice score up to 76 percent.',
+                'Conducted an in-depth analysis of different algorithms, research papers, and blogs and conducted an in-depth comparative analysis of the two algorithms, transform and convolutional neural networks (CNNs), for autonomous vehicle navigation.',
+                'Engineered an autonomous prototype vehicle using Raspberry Pi and a camera to detect the lane itself, take turns accordingly, and do a comparison between approaches by achieving CNN accuracy of approximately 77%.',
+                'Applied Python, OpenCV, Linux, image processing techniques, and TensorFlow to develop and test algorithms, collaborating with peers and mentors to ensure robust outcomes, and authored a research paper in the 9th ICSC.'
             ]
         },
         {
