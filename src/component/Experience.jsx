@@ -10,15 +10,15 @@ const Experience = () => {
     const ResumeData=[
         {
             id:1,
-            designation:'Frontend Developer',
+            designation:'Full-Stack Developer',
             date:'April 2024 - Present',
             orgainization:'BHARATTECH TECH ECO-SYSTEM PVT LTD ',
             location:'Remote, India',
             point:[
-                 'Enhanced responsiveness, upgraded and designed new web pages, and implemented API integration, including features such as search capabilities and data filtering across several pages in Product 1, developed using React, Material UI, Redux and JavaScript.',
-                 'Optimized the website by using reusable components, conditional rendering, lazy loading, and image optimization to improve Lighthouse score up to 60%, SEO score up to 90%, and best practices score up to 76%. ',
-                 'Designed a SaaS product from Next.js 14, TypeScript, and Tailwind CSS, led the team to facilitate the incorporation of new features and functionalities, and constructed an Express Node server to scrape real-time news data for the website and decode image URLs. Utilized git and GitHub for version control, merging branches, and managing codebase integrity',
-                 'Upgraded four new dashboard portals having features like creating resumes, posting jobs, real-time messaging using Socket IO, interview scheduler by having real-time interview on dashboard itself, and authentication. Collaborated with the backend team to develop the API end point for Dashboards.'
+                 'Enhanced responsiveness, upgraded and designed new modules using React, Material UI, Redux, and JavaScript. and implemented Rest Apis in Django REST to include features such as search capabilities and data filtering across several pages.',
+                 'Designed one SaaS product using Next.js 14, TypeScript, and Tailwind CSS, led the team to facilitate the incorporation of new features and functionalities, and constructed a constructed an express server that auto-updates data in the MongoDB database once a day.',
+                 'Optimized the website through conditional rendering, lazy loading, and image optimization to improve the Lighthouse score up to 60% and the SEO score up to 90%.',
+                 'Revamped four new portals with React and Material UI and collaborated with the backend team to develop the Django API to have features for the microservice and integrated real-time messaging using web sockets, authentication for enhancing security using JWT, and done API integration for seamless flow of data between the backend and frontend.'
             ]
         },
         {

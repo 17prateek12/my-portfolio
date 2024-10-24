@@ -5,7 +5,7 @@ import {useTypewriter} from './useTypewriter';
 
 const IamPrateek = () => {
   const [text] = useTypewriter({
-    words: ["PRATEEK SHARMA","FRONTEND DEVELOPER"],
+    words: ["PRATEEK SHARMA","FULLSTACK DEVELOPER"],
     loop: true,
   });
 

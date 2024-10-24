@@ -13,7 +13,7 @@ const AboutMe = () => {
                 where my real interest lies. I enjoy creating programs that are aesthetically
                 pleasing, intuitive to use, and functional. I graduated in June 2023 with a B.Tech
                 in Electronics and Communication from the Jaypee Institute of Information Technology
-                in Noida. I&apos;m an intern frontend developer at BharatTech Tech Eco-System Pvt. Ltd.
+                in Noida. I&apos;m an intern fullstack developer at BharatTech Tech Eco-System Pvt. Ltd.
                 right now.
             </Typography>
         </div>
