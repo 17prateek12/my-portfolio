@@ -11,7 +11,7 @@ const Experience = () => {
         {
             id:1,
             designation:'Full-Stack Developer',
-            date:'April 2024 - Present',
+            date:'April 2024 - December 2024',
             orgainization:'BHARATTECH TECH ECO-SYSTEM PVT LTD ',
             location:'Remote, India',
             point:[
