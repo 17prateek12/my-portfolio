@@ -61,13 +61,13 @@ const Experience = () => {
                     <div className='w-auto sm:w-full text-[18px] sm:text-[14px] font-medium dark:text-white text-[#223354]'>
                         {item.designation}
                     </div>
-                    <div className='w-[250px] sm:w-full text-[18px] sm:text-[14px] font-medium dark:text-white text-[#223354]'>
+                    <div className='w-[250px] sm:w-full text-[18px] sm:text-[14px] text-center font-medium dark:text-white text-[#223354]'>
                         {item.orgainization}
                     </div>
                     <div className='w-[237px] navsm:w-full sm:w-full text-[18px] sm:text-[14px] font-medium 
                         flex justify-between items-center sm:flex-col sm:justify-start sm:items-start sm:gap-2 dark:text-white text-[#223354]'>
                         {item.date}
-                        <div className='sm:w-full sm:justify-center sm:items-center sm:flex'>
+                      {/*  <div className='sm:w-full sm:justify-center sm:items-center sm:flex'>
                         {showexp.includes(item.id) ? (
                             <button className='text-[18px] font-medium dark:text-white text-[#223354]'
                             onClick={() => handleToggle(item.id)}>
@@ -79,10 +79,10 @@ const Experience = () => {
                                 <FaPlus />
                             </button>
                         )}
-                    </div>
+                    </div> */}
                     </div>
                 </div>
-                {showexp.includes(item.id) && (
+                {/*showexp.includes(item.id) && (
                     <div className='mt-8'>
                     {item.point.map((val,index)=>(
                         <div className='flex flex-col mb-4 transform transition-transform ease-in-out duration-1000' key={index}>
@@ -93,7 +93,7 @@ const Experience = () => {
                     ))}  
                     </div> 
                 )
-                }   
+                */}   
             </div>    
         ))}
         </div>
