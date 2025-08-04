@@ -10,6 +10,19 @@ const Experience = () => {
     const ResumeData=[
         {
             id:1,
+            designation:'Software Engineer',
+            date:'May 2025 - Present',
+            orgainization:'L&T Technology Service (deployed at Thales)',
+            location:'Noida, India',
+            point:[
+                 'Enhanced responsiveness, upgraded and designed new modules using React, Material UI, Redux, and JavaScript. and implemented Rest Apis in Django REST to include features such as search capabilities and data filtering across several pages.',
+                 'Designed one SaaS product using Next.js 14, TypeScript, and Tailwind CSS, led the team to facilitate the incorporation of new features and functionalities, and constructed a constructed an express server that auto-updates data in the MongoDB database once a day.',
+                 'Optimized the website through conditional rendering, lazy loading, and image optimization to improve the Lighthouse score up to 60% and the SEO score up to 90%.',
+                 'Revamped four new portals with React and Material UI and collaborated with the backend team to develop the Django API to have features for the microservice and integrated real-time messaging using web sockets, authentication for enhancing security using JWT, and done API integration for seamless flow of data between the backend and frontend.'
+            ]
+        },
+        {
+            id:2,
             designation:'Full-Stack Developer',
             date:'April 2024 - December 2024',
             orgainization:'BHARATTECH TECH ECO-SYSTEM PVT LTD ',
@@ -22,7 +35,7 @@ const Experience = () => {
             ]
         },
         {
-            id:2,
+            id:3,
             designation:'Contributor',
             date:'June 2023 - Feb 2024',
             orgainization:'IEEE',
@@ -34,7 +47,7 @@ const Experience = () => {
             ]
         },
         {
-            id:3,
+            id:4,
             designation:'Machine Learning Intern',
             date:'June 2022 - July 2022',
             orgainization:'Jaypee Institute of Information Technology',
